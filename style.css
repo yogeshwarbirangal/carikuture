@@ -1,0 +1,328 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+
+     background: #E9ECEF !important;
+
+}
+
+.navbar{
+
+    margin-left: 25vw; 
+    width:800px !important;
+    border-radius: 40px;
+    
+}
+
+.nav-link{
+
+    color:gray !important;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 2rem;
+}
+
+.nav-link:hover{
+
+    color:#3B6998 !important;
+    border-bottom: 1px solid #213a53 !important;
+}
+
+
+.top-right ul{
+    display: flex;
+    justify-content: end;
+    padding-right: 2rem;
+}
+.top-right ul li{
+
+    display: block;
+    padding: 0.5rem;
+}
+.top-right ul li i{
+
+        color:black;
+
+}
+.avtar{
+
+    height: 3.1vh;
+    margin-bottom: 0.8rem;
+}
+
+.ctn{
+
+    background: #FFFFFF;
+    margin: 2rem auto;
+    Width: 1250px;
+    Height: 800px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px #dad7d7;
+
+}
+
+.img{
+
+    height: 15vh;
+    margin: 5rem 0;
+}
+
+.colums{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 2.5rem;
+    padding-top: 5rem;
+    
+}
+
+.cl{
+
+    height: 550px;
+    width: 337px;
+    border: 1px solid #E9ECEF;
+    padding: 0 1rem;
+    border-radius: 25px;  
+    text-align: center;  
+    box-shadow: 5px 10px 5px 5px #E6E6E6;
+}
+
+.cl h3{
+
+    color:#3B6998;
+    font-size: 1.2rem;
+}
+.cl p{
+
+    color:#3B6998;
+    font-size: 0.8rem;
+   font-weight: 500;
+}
+.cl a{
+
+    text-decoration: none;
+}
+.cl h3:hover{
+
+     color: #213a53;
+  
+  
+}
+.btns{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.btns button{
+
+    
+    padding: 0.5rem 1.5rem;
+    margin: 2.5rem 0.5rem;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    text-align: center;
+    width: 8rem;
+    color: gray;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btns button:hover{
+
+    color:#203b57;
+    cursor: pointer;
+}
+
+/* Job section css */
+
+.ctn-job{
+
+    background: #FFFFFF;
+    margin: 2rem auto;
+    Width: 1250px;
+    Height: 800px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px #dad7d7;
+
+}
+.job-heading{
+
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-left: 3rem;
+    padding-top: 3.5rem;
+}
+
+.job-row{
+
+    background: #3B6998;
+    height:170px;
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+}
+
+.job-img {
+
+    margin-left: 3rem;
+}
+.job-img img{
+
+    height: 10vh;
+    margin-top: 2.5rem;
+
+}
+
+.job-info{
+
+        color: #FFFFFF;
+        padding-top: 1.5rem;
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+        margin-bottom: 2rem;
+}
+
+.job-info h4{
+
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.job-info p{
+
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 0;
+}
+
+.job-info h4:hover{
+
+   color: #d4cece;
+   cursor: pointer;
+   
+}
+
+/* media queries */
+
+@media screen and (max-width:565px)
+{
+
+    .ctn{
+
+        height: auto;
+        width: 350px;
+
+    }
+    .colums{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cl{
+
+        width: 300px;
+        margin-left: 1rem;
+    }
+
+    .btns{
+
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .btns button{
+
+        padding:0.2rem;
+        font-size: 0.8rem;
+    }
+
+    
+
+    .navbar{
+
+       width: 250px !important;
+       margin-left: 4rem;
+
+    }
+
+    .ctn-job{
+            height: auto;
+            width: 350px;
+            padding-bottom: 3rem;
+    }
+
+    .job-heading{
+
+        font-size: 1rem;
+        font-weight: 600;
+        padding-left: 2rem;
+        padding-top: 3.5rem;
+    }
+.job-row{
+
+    background: #3B6998;
+    height:180px;
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+}
+
+    .job-img {
+
+        margin-left: 1.5rem;
+
+    }
+    .job-img img{
+
+        height: 5vh;
+        margin-top: 2.5rem;
+    
+    }
+    
+    .job-info{
+    
+            color: #FFFFFF;
+            padding-top: 1.5rem;
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            margin-bottom: 2rem;
+    }
+    
+    .job-info h4{
+    
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .job-info p{
+    
+        font-size: 0.8rem;
+        margin: 0;
+        padding: 0;
+    }
+    .job-info h4:hover{
+
+        color: #d4cece;
+        cursor: pointer;
+        
+     }
+}
